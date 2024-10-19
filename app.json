@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "client",
+    "slug": "client",
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "expo-location",
+      "@react-native-google-signin/google-signin",
+      ["react-native-fbsdk-next",
+      {
+        "appID": "1050340166758825",
+        "clientToken": "e7a29b779f9452f1615a437c0bc57c72",
+        "displayName": "HotelBooking"
+
+      }]
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.quanghuy18t.client",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyA66KwUrjxcFG5u0exynlJ45CrbrNe3hEc"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e18c8a05-a783-420a-a18b-550094244391"
+      }
+    }
+  }
+}
